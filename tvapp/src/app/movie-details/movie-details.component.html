@@ -1,3 +1,10 @@
-<p>
-  movie-details works!
-</p>
+<div>
+  <div>
+    <span>{{ movie.name }}, {{ movie.genre }}</span>
+  </div>
+  <div>
+    <img [src]="movie.image" />
+    <span>{{ movie.summary }}</span>
+  </div>
+  <div>{{ movie.country }}, {{ movie.runtime }}</div>
+</div>
