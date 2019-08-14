@@ -12,11 +12,10 @@ export class MovieDetailsComponent implements OnInit {
   constructor() { 
     this.movie = {
       name: 'Lion King',
-      genre: 'Fantasy',
+      genres: 'Fantasy',
+      premiered: new Date(),
       image: '',
       summary: 'A story of overcoming past regrets and shame to rediscover true self-worth and belonging.',
-      country: 'USA',
-      runtime:120
 
     }
   }

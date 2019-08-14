@@ -1,8 +1,7 @@
 export interface IMovie {
     name: string
-    genre: string
+    genres: string
+    premiered: Date
     image: string
     summary: string
-    country: string
-    runtime: number
 }
